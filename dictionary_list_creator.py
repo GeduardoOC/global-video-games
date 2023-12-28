@@ -10,5 +10,5 @@ def dict_creator(list1, list2):
     dict = {name:year for (name, year) in zip(list1, list2)}
     return dict
 
-games_dict = dict_creator(video_games_name, video_games_year)
-print(games_dict)
+#games_dict = dict_creator(video_games_name, video_games_year)
+#print(games_dict)
